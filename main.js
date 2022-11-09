@@ -14,6 +14,11 @@ document.getElementById("p").onclick=()=>{val('+')}
 document.getElementById("m").onclick=()=>{val('-')}
 document.getElementById("d").onclick=()=>{val('/')}
 document.getElementById("mul").onclick=()=>{val('*')}
+document.getElementById("sin").onclick=()=>{val('sin')}
+document.getElementById("cos").onclick=()=>{val('cos')}
+document.getElementById("tan").onclick=()=>{val('tan')}
+document.getElementById("bopen").onclick=()=>{val('(')}
+document.getElementById("bclose").onclick=()=>{val(')')}
 document.getElementById("ANS").onclick=()=>{solve()}
 document.getElementById("clear").onclick=()=>{ document.getElementById("txt1").value=""}
 document.getElementById("bspace").onclick=()=>{ 
